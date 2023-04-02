@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Filmes</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <nav>
+        <a href="home.html">Voltar para a página inicial</a>
+    </nav>
+    <article>
+      <form action="" method="post">
+        
+        <fieldset>
+            <progress value="10" max="100"></progress><br>
+            Data de nascimento:<br/>
+            <input type="text" name="data"> <br/>
+            Email:<br/>
+            <input type="text" name="email"> <br/>
+            Telefone: <br/>
+            <input type="text" name="tele"> <br/>
+            Mês de adesão: <br/>
+            <select id="meses" name="meses">
+              <option value="01">Janeiro</option>
+              <option value="02">Fevereiro</option>
+              <option value="03">Março</option>
+              <option value="04">Abril</option>
+              <option value="05">Maio</option>
+              <option value="06">Junho</option>
+              <option value="07">Julho</option>
+              <option value="08">Agosto</option>
+              <option value="09">Setembro</option>
+              <option value="10">Outubro</option>
+              <option value="11">Novembro</option>
+              <option value="12">Dezembro</option>
+            </select><br>
+            Número de filmes que o cliente pretende ver semanalmente: <br/>
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select> <br/>
+            Cor de preferência para visualização da área do cliente:<br/>
+            <select>
+              <option value="1">Azul</option>
+              <option value="2">Verde</option>
+              <option value="3">Vermelho</option>
+            </select> <br/>
+            Endereço da página pessoal do cliente: <br/>
+            <input type="text" name="end"> <br/>
+            Data e hora que o cliente prefere utilizar o cupom de desconto da primeira compra: <br/>
+            <input type="text" name="datahora"> <br/>
+
+            <label for="acao">Ação:    </label>
+            <input type="range" id="acao" name="acao" min="0" max="10" value="5">
+            <br>
+
+            <label for="drama">Drama:  </label>
+            <input type="range" id="drama" name="drama" min="0" max="10" value="5">
+            <br>
+
+            <label for="romance">Romance:    </label>
+            <input type="range" id="romance" name="romance" min="0" max="10" value="5">
+            <br>
+
+            <label for="comedia">Comédia:   </label>
+            <input type="range" id="comedia" name="comedia" min="0" max="10" value="5">
+            <br>
+
+            <label for="suspense">Suspense:   </label>
+            <input type="range" id="suspense" name="suspense" min="0" max="10" value="5">
+            <br>
+
+            <label for="terror">Terror:   </label>
+            <input type="range" id="terror" name="terror" min="0" max="10" value="5">
+            <br>
+
+            <label for="ficcao-cientifica">Ficção científica:</label>
+            <input type="range" id="ficcao-cientifica" name="ficcao-cientifica" min="0" max="10" value="5">
+            <br>
+            
+            <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+    </article>
+  </body>
+</html>
